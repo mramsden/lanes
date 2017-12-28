@@ -33,6 +33,8 @@ public class BoardService {
     private var columns: [String] = []
     private var tasks: [String: [String]] = [:]
 
+    public init() { }
+
     public func create(column: String) {
         var columns = self.columns
         columns.append(column)
