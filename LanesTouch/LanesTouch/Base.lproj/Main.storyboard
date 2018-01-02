@@ -4,48 +4,25 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Application View Controller-->
+        <!--View Controller-->
         <scene sceneID="eou-3I-iv2">
             <objects>
-                <viewController id="mmH-pc-ua9" customClass="ApplicationViewController" customModule="LanesTouch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mmH-pc-ua9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="soD-rE-yLx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yL-G1-Rih">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <connections>
-                                    <segue destination="PJc-0o-khk" kind="embed" identifier="Board" id="DjB-0m-DV8"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="6yL-G1-Rih" firstAttribute="width" secondItem="soD-rE-yLx" secondAttribute="width" id="2NK-uC-ivT"/>
-                            <constraint firstItem="6yL-G1-Rih" firstAttribute="centerY" secondItem="soD-rE-yLx" secondAttribute="centerY" id="gJe-Xd-9Qf"/>
-                            <constraint firstItem="6yL-G1-Rih" firstAttribute="height" secondItem="soD-rE-yLx" secondAttribute="height" id="jAX-gc-Gvo"/>
-                            <constraint firstItem="6yL-G1-Rih" firstAttribute="centerX" secondItem="soD-rE-yLx" secondAttribute="centerX" id="rRB-zI-SA6"/>
-                        </constraints>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="1YG-2B-dwC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="If7-yy-YmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="146" y="147"/>
-        </scene>
-        <!--Board-->
-        <scene sceneID="FTx-0E-5jy">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Board" id="PJc-0o-khk" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K17-qV-0bn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="886" y="146"/>
         </scene>
     </scenes>
 </document>

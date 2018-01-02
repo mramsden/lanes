@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80A9DB41FFC273F00B12760 /* Lanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A9DB31FFC273F00B12760 /* Lanes.framework */; };
+		F80A9DB51FFC273F00B12760 /* Lanes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F80A9DB31FFC273F00B12760 /* Lanes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F80BA65C1FF551BD0026CA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */; };
 		F80BA6611FF551BD0026CA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80BA65F1FF551BD0026CA7E /* Main.storyboard */; };
 		F80BA6631FF551BD0026CA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80BA6621FF551BD0026CA7E /* Assets.xcassets */; };
 		F80BA6661FF551BD0026CA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80BA6641FF551BD0026CA7E /* LaunchScreen.storyboard */; };
-		F80BA6831FF553690026CA7E /* Board.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80BA6851FF553690026CA7E /* Board.storyboard */; };
-		F80BA6871FF5551E0026CA7E /* BoardStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BA6861FF5551E0026CA7E /* BoardStoryboardTests.swift */; };
-		F80BA6891FF55ADB0026CA7E /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BA6881FF55ADB0026CA7E /* BoardViewController.swift */; };
-		F80BA68C1FF55DA00026CA7E /* BoardViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BA68B1FF55DA00026CA7E /* BoardViewControllerTests.swift */; };
-		F80BA6901FF562410026CA7E /* Lanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80BA6911FF562410026CA7E /* Lanes.framework */; };
-		F80BA6921FF562580026CA7E /* Lanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80BA6931FF562580026CA7E /* Lanes.framework */; };
-		F88A09461FF5665C0021A55C /* UIViewController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A09451FF5665C0021A55C /* UIViewController+AlertController.swift */; };
 		F88A09491FF56B870021A55C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F88A094B1FF56B870021A55C /* Localizable.strings */; };
-		F88A094E1FF56DB60021A55C /* AlertViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A094D1FF56DB60021A55C /* AlertViewPresenter.swift */; };
-		F88A09501FF585660021A55C /* BoardModuleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A094F1FF585660021A55C /* BoardModuleContainer.swift */; };
-		F88A09521FF585ED0021A55C /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A09511FF585ED0021A55C /* ApplicationViewController.swift */; };
-		F88A09541FF586140021A55C /* ApplicationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A09531FF586140021A55C /* ApplicationViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F80A9DC31FFC287D00B12760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80BA6501FF551BD0026CA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80BA6571FF551BD0026CA7E;
+			remoteInfo = LanesTouch;
+		};
 		F80BA66D1FF551BD0026CA7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F80BA6501FF551BD0026CA7E /* Project object */;
@@ -35,7 +33,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F80A9DB61FFC273F00B12760 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F80A9DB51FFC273F00B12760 /* Lanes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F80A9DB31FFC273F00B12760 /* Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A9DBE1FFC287D00B12760 /* LanesTouchFunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanesTouchFunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A9DC21FFC287D00B12760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80BA6581FF551BD0026CA7E /* LanesTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanesTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80BA6601FF551BD0026CA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,27 +59,22 @@
 		F80BA6671FF551BD0026CA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80BA66C1FF551BD0026CA7E /* LanesTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanesTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80BA6721FF551BD0026CA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F80BA6841FF553690026CA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Board.storyboard; sourceTree = "<group>"; };
-		F80BA6861FF5551E0026CA7E /* BoardStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardStoryboardTests.swift; sourceTree = "<group>"; };
-		F80BA6881FF55ADB0026CA7E /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
-		F80BA68B1FF55DA00026CA7E /* BoardViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewControllerTests.swift; sourceTree = "<group>"; };
-		F80BA68F1FF562190026CA7E /* Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80BA6911FF562410026CA7E /* Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80BA6931FF562580026CA7E /* Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88A09451FF5665C0021A55C /* UIViewController+AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertController.swift"; sourceTree = "<group>"; };
 		F88A094C1FF56BC80021A55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F88A094D1FF56DB60021A55C /* AlertViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewPresenter.swift; sourceTree = "<group>"; };
-		F88A094F1FF585660021A55C /* BoardModuleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModuleContainer.swift; sourceTree = "<group>"; };
-		F88A09511FF585ED0021A55C /* ApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
-		F88A09531FF586140021A55C /* ApplicationViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F80A9DBB1FFC287D00B12760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F80BA6551FF551BD0026CA7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80BA6901FF562410026CA7E /* Lanes.framework in Frameworks */,
+				F80A9DB41FFC273F00B12760 /* Lanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,20 +82,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80BA6921FF562580026CA7E /* Lanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80A9DBF1FFC287D00B12760 /* LanesTouchFunctionalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80A9DC21FFC287D00B12760 /* Info.plist */,
+			);
+			path = LanesTouchFunctionalTests;
+			sourceTree = "<group>";
+		};
 		F80BA64F1FF551BD0026CA7E = {
 			isa = PBXGroup;
 			children = (
 				F80BA65A1FF551BD0026CA7E /* LanesTouch */,
 				F80BA66F1FF551BD0026CA7E /* LanesTouchTests */,
+				F80A9DBF1FFC287D00B12760 /* LanesTouchFunctionalTests */,
 				F80BA6591FF551BD0026CA7E /* Products */,
-				F80BA68D1FF562190026CA7E /* Frameworks */,
+				F80A9DB31FFC273F00B12760 /* Lanes.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +112,7 @@
 			children = (
 				F80BA6581FF551BD0026CA7E /* LanesTouch.app */,
 				F80BA66C1FF551BD0026CA7E /* LanesTouchTests.xctest */,
+				F80A9DBE1FFC287D00B12760 /* LanesTouchFunctionalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */,
-				F88A09511FF585ED0021A55C /* ApplicationViewController.swift */,
 				F80BA65F1FF551BD0026CA7E /* Main.storyboard */,
-				F88A09441FF566310021A55C /* Additions */,
-				F80BA67B1FF552610026CA7E /* Board */,
 				F80BA6621FF551BD0026CA7E /* Assets.xcassets */,
 				F80BA6641FF551BD0026CA7E /* LaunchScreen.storyboard */,
 				F80BA6671FF551BD0026CA7E /* Info.plist */,
@@ -117,54 +133,32 @@
 		F80BA66F1FF551BD0026CA7E /* LanesTouchTests */ = {
 			isa = PBXGroup;
 			children = (
-				F88A09531FF586140021A55C /* ApplicationViewControllerTests.swift */,
-				F80BA68A1FF55D8C0026CA7E /* Board */,
 				F80BA6721FF551BD0026CA7E /* Info.plist */,
 			);
 			path = LanesTouchTests;
 			sourceTree = "<group>";
 		};
-		F80BA67B1FF552610026CA7E /* Board */ = {
-			isa = PBXGroup;
-			children = (
-				F80BA6851FF553690026CA7E /* Board.storyboard */,
-				F80BA6881FF55ADB0026CA7E /* BoardViewController.swift */,
-				F88A094F1FF585660021A55C /* BoardModuleContainer.swift */,
-			);
-			path = Board;
-			sourceTree = "<group>";
-		};
-		F80BA68A1FF55D8C0026CA7E /* Board */ = {
-			isa = PBXGroup;
-			children = (
-				F80BA6861FF5551E0026CA7E /* BoardStoryboardTests.swift */,
-				F80BA68B1FF55DA00026CA7E /* BoardViewControllerTests.swift */,
-			);
-			path = Board;
-			sourceTree = "<group>";
-		};
-		F80BA68D1FF562190026CA7E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F80BA6931FF562580026CA7E /* Lanes.framework */,
-				F80BA6911FF562410026CA7E /* Lanes.framework */,
-				F80BA68F1FF562190026CA7E /* Lanes.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F88A09441FF566310021A55C /* Additions */ = {
-			isa = PBXGroup;
-			children = (
-				F88A094D1FF56DB60021A55C /* AlertViewPresenter.swift */,
-				F88A09451FF5665C0021A55C /* UIViewController+AlertController.swift */,
-			);
-			path = Additions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F80A9DBD1FFC287D00B12760 /* LanesTouchFunctionalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A9DC51FFC287D00B12760 /* Build configuration list for PBXNativeTarget "LanesTouchFunctionalTests" */;
+			buildPhases = (
+				F80A9DBA1FFC287D00B12760 /* Sources */,
+				F80A9DBB1FFC287D00B12760 /* Frameworks */,
+				F80A9DBC1FFC287D00B12760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80A9DC41FFC287D00B12760 /* PBXTargetDependency */,
+			);
+			name = LanesTouchFunctionalTests;
+			productName = LanesTouchFunctionalTests;
+			productReference = F80A9DBE1FFC287D00B12760 /* LanesTouchFunctionalTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F80BA6571FF551BD0026CA7E /* LanesTouch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80BA6751FF551BD0026CA7E /* Build configuration list for PBXNativeTarget "LanesTouch" */;
@@ -172,6 +166,7 @@
 				F80BA6541FF551BD0026CA7E /* Sources */,
 				F80BA6551FF551BD0026CA7E /* Frameworks */,
 				F80BA6561FF551BD0026CA7E /* Resources */,
+				F80A9DB61FFC273F00B12760 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +205,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Marcus Ramsden";
 				TargetAttributes = {
+					F80A9DBD1FFC287D00B12760 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F80BA6571FF551BD0026CA7E;
+					};
 					F80BA6571FF551BD0026CA7E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -237,11 +237,19 @@
 			targets = (
 				F80BA6571FF551BD0026CA7E /* LanesTouch */,
 				F80BA66B1FF551BD0026CA7E /* LanesTouchTests */,
+				F80A9DBD1FFC287D00B12760 /* LanesTouchFunctionalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F80A9DBC1FFC287D00B12760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F80BA6561FF551BD0026CA7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,7 +258,6 @@
 				F80BA6661FF551BD0026CA7E /* LaunchScreen.storyboard in Resources */,
 				F80BA6631FF551BD0026CA7E /* Assets.xcassets in Resources */,
 				F80BA6611FF551BD0026CA7E /* Main.storyboard in Resources */,
-				F80BA6831FF553690026CA7E /* Board.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,16 +271,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F80A9DBA1FFC287D00B12760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F80BA6541FF551BD0026CA7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F80BA65C1FF551BD0026CA7E /* AppDelegate.swift in Sources */,
-				F88A09501FF585660021A55C /* BoardModuleContainer.swift in Sources */,
-				F88A09461FF5665C0021A55C /* UIViewController+AlertController.swift in Sources */,
-				F88A094E1FF56DB60021A55C /* AlertViewPresenter.swift in Sources */,
-				F80BA6891FF55ADB0026CA7E /* BoardViewController.swift in Sources */,
-				F88A09521FF585ED0021A55C /* ApplicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88A09541FF586140021A55C /* ApplicationViewControllerTests.swift in Sources */,
-				F80BA6871FF5551E0026CA7E /* BoardStoryboardTests.swift in Sources */,
-				F80BA68C1FF55DA00026CA7E /* BoardViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F80A9DC41FFC287D00B12760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80BA6571FF551BD0026CA7E /* LanesTouch */;
+			targetProxy = F80A9DC31FFC287D00B12760 /* PBXContainerItemProxy */;
+		};
 		F80BA66E1FF551BD0026CA7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F80BA6571FF551BD0026CA7E /* LanesTouch */;
@@ -314,14 +325,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		F80BA6851FF553690026CA7E /* Board.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F80BA6841FF553690026CA7E /* Base */,
-			);
-			name = Board.storyboard;
-			sourceTree = "<group>";
-		};
 		F88A094B1FF56B870021A55C /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +336,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F80A9DC61FFC287D00B12760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4M9B363T;
+				INFOPLIST_FILE = LanesTouchFunctionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsden.LanesTouchFunctionalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanesTouch;
+			};
+			name = Debug;
+		};
+		F80A9DC71FFC287D00B12760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4M9B363T;
+				INFOPLIST_FILE = LanesTouchFunctionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsden.LanesTouchFunctionalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanesTouch;
+			};
+			name = Release;
+		};
 		F80BA6731FF551BD0026CA7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -447,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T4M9B363T;
 				INFOPLIST_FILE = LanesTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsden.LanesTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T4M9B363T;
 				INFOPLIST_FILE = LanesTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsden.LanesTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +545,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F80A9DC51FFC287D00B12760 /* Build configuration list for PBXNativeTarget "LanesTouchFunctionalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A9DC61FFC287D00B12760 /* Debug */,
+				F80A9DC71FFC287D00B12760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F80BA6531FF551BD0026CA7E /* Build configuration list for PBXProject "LanesTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
