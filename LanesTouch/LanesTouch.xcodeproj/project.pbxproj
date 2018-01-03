@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		F80A9DB41FFC273F00B12760 /* Lanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A9DB31FFC273F00B12760 /* Lanes.framework */; };
 		F80A9DB51FFC273F00B12760 /* Lanes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F80A9DB31FFC273F00B12760 /* Lanes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F80A9DC91FFC28CC00B12760 /* TaskManagementFunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DC81FFC28CC00B12760 /* TaskManagementFunctionalTests.swift */; };
+		F80A9DCB1FFC2FD800B12760 /* ColumnsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DCA1FFC2FD800B12760 /* ColumnsViewControllerTests.swift */; };
+		F80A9DCD1FFC30C700B12760 /* ColumnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DCC1FFC30C700B12760 /* ColumnsViewController.swift */; };
+		F80A9DCF1FFC391100B12760 /* CreateColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DCE1FFC391100B12760 /* CreateColumnViewController.swift */; };
+		F80A9DD11FFC4F1900B12760 /* CreateColumnViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DD01FFC4F1900B12760 /* CreateColumnViewControllerTests.swift */; };
+		F80A9DD31FFC551500B12760 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A9DD21FFC551500B12760 /* CreateTaskViewController.swift */; };
 		F80BA65C1FF551BD0026CA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */; };
 		F80BA6611FF551BD0026CA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80BA65F1FF551BD0026CA7E /* Main.storyboard */; };
 		F80BA6631FF551BD0026CA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80BA6621FF551BD0026CA7E /* Assets.xcassets */; };
@@ -51,6 +57,12 @@
 		F80A9DB31FFC273F00B12760 /* Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A9DBE1FFC287D00B12760 /* LanesTouchFunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanesTouchFunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A9DC21FFC287D00B12760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A9DC81FFC28CC00B12760 /* TaskManagementFunctionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementFunctionalTests.swift; sourceTree = "<group>"; };
+		F80A9DCA1FFC2FD800B12760 /* ColumnsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnsViewControllerTests.swift; sourceTree = "<group>"; };
+		F80A9DCC1FFC30C700B12760 /* ColumnsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnsViewController.swift; sourceTree = "<group>"; };
+		F80A9DCE1FFC391100B12760 /* CreateColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateColumnViewController.swift; sourceTree = "<group>"; };
+		F80A9DD01FFC4F1900B12760 /* CreateColumnViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateColumnViewControllerTests.swift; sourceTree = "<group>"; };
+		F80A9DD21FFC551500B12760 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 		F80BA6581FF551BD0026CA7E /* LanesTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanesTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80BA6601FF551BD0026CA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +103,7 @@
 		F80A9DBF1FFC287D00B12760 /* LanesTouchFunctionalTests */ = {
 			isa = PBXGroup;
 			children = (
+				F80A9DC81FFC28CC00B12760 /* TaskManagementFunctionalTests.swift */,
 				F80A9DC21FFC287D00B12760 /* Info.plist */,
 			);
 			path = LanesTouchFunctionalTests;
@@ -121,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				F80BA65B1FF551BD0026CA7E /* AppDelegate.swift */,
+				F80A9DCC1FFC30C700B12760 /* ColumnsViewController.swift */,
+				F80A9DCE1FFC391100B12760 /* CreateColumnViewController.swift */,
+				F80A9DD21FFC551500B12760 /* CreateTaskViewController.swift */,
 				F80BA65F1FF551BD0026CA7E /* Main.storyboard */,
 				F80BA6621FF551BD0026CA7E /* Assets.xcassets */,
 				F80BA6641FF551BD0026CA7E /* LaunchScreen.storyboard */,
@@ -133,6 +149,8 @@
 		F80BA66F1FF551BD0026CA7E /* LanesTouchTests */ = {
 			isa = PBXGroup;
 			children = (
+				F80A9DCA1FFC2FD800B12760 /* ColumnsViewControllerTests.swift */,
+				F80A9DD01FFC4F1900B12760 /* CreateColumnViewControllerTests.swift */,
 				F80BA6721FF551BD0026CA7E /* Info.plist */,
 			);
 			path = LanesTouchTests;
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					F80A9DBD1FFC287D00B12760 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F80BA6571FF551BD0026CA7E;
 					};
@@ -275,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80A9DC91FFC28CC00B12760 /* TaskManagementFunctionalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80A9DCD1FFC30C700B12760 /* ColumnsViewController.swift in Sources */,
+				F80A9DCF1FFC391100B12760 /* CreateColumnViewController.swift in Sources */,
 				F80BA65C1FF551BD0026CA7E /* AppDelegate.swift in Sources */,
+				F80A9DD31FFC551500B12760 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80A9DD11FFC4F1900B12760 /* CreateColumnViewControllerTests.swift in Sources */,
+				F80A9DCB1FFC2FD800B12760 /* ColumnsViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +364,14 @@
 		F80A9DC61FFC287D00B12760 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T4M9B363T;
 				INFOPLIST_FILE = LanesTouchFunctionalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsden.LanesTouchFunctionalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LanesTouch;
@@ -354,6 +381,7 @@
 		F80A9DC71FFC287D00B12760 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T4M9B363T;
 				INFOPLIST_FILE = LanesTouchFunctionalTests/Info.plist;
